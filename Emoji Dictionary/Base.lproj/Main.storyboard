@@ -50,8 +50,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTk-Of-WIJ">
-                                <rect key="frame" x="166" y="70" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="😁" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qTk-Of-WIJ">
+                                <rect key="frame" x="118" y="120" width="140" height="167.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="140"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grinning Face With Smiling eyes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eol-hA-kxb">
+                                <rect key="frame" x="64.5" y="347.5" width="246" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -59,8 +65,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="eol-hA-kxb" firstAttribute="top" secondItem="qTk-Of-WIJ" secondAttribute="bottom" constant="60" id="Jk4-NP-x9w"/>
+                            <constraint firstItem="eol-hA-kxb" firstAttribute="centerX" secondItem="Z73-38-0wW" secondAttribute="centerX" id="fdw-tc-fsg"/>
                             <constraint firstItem="qTk-Of-WIJ" firstAttribute="centerX" secondItem="Z73-38-0wW" secondAttribute="centerX" id="oI5-fQ-x7E"/>
-                            <constraint firstItem="qTk-Of-WIJ" firstAttribute="top" secondItem="Bx7-Ft-4za" secondAttribute="bottom" constant="50" id="vBM-Un-69F"/>
+                            <constraint firstItem="qTk-Of-WIJ" firstAttribute="top" secondItem="Bx7-Ft-4za" secondAttribute="bottom" constant="100" id="vBM-Un-69F"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
